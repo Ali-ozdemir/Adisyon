@@ -28,9 +28,10 @@
         <div class="card card-body bg-light mt-5">
           <h2>Dashboard <small class="text-muted"><?php echo $_SESSION['email']; ?></small></h2>
           
-          <p>Welcome to the dashboard <?php echo $_SESSION['name']; ?></p>
+          <p>merhaba siteye hoş geldiniz  <?php echo $_SESSION['name']; ?></p>
           <p>
           <a href="logout.php" style="width: 260px ; height: 200px "   class="btn btn-danger"> Çıkış</a> 
+          
           <a href="masadurum.php" style="width: 260px ; height: 200px "   class="btn btn-danger"> Masa Durumları</a> 
 
         </div>
